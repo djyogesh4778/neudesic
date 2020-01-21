@@ -1,0 +1,25 @@
+1) research and find out tool to use git operations.
+
+Some of the basic operations in Git are:
+Initialize - git init creates an empty Git repository or re-initializes an existing one. It basically creates a .git directory with sub directories and template files. 
+
+Status - The git status command lists all the modified files which are ready to be added to the local repository.
+
+Add - After making changes to the working tree, and before running the commit command, you must use the add command to add any new or modified files to the index. 
+
+Commit -  The git commit command has committed the changes in the local repository.
+
+Pull - The git pull command fetches changes from a remote repository to a local repository. It merges upstream changes in local repository.
+
+Push - This command transfers commits from your local repository to your remote repository.
+
+Some advanced Git operations are:
+Branching - Branches in Git are pointers to a specific commit.
+
+Merging - Merging is the way to combine the work of different branches together.
+
+
+2) git push  - u origin master (why to use -u , origin , master)
+
+Is used for pushing local content to GitHub.
+In the code, the origin is our default remote repository name and '-u' flag is upstream, which is equivalent to '-set-upstream.' and the master is the branch.
