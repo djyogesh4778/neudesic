@@ -1,0 +1,36 @@
+using System;
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("input size of an array\n");
+		int a =	Convert.ToInt32(Console.ReadLine());
+		int[] array = new int[a];
+		Console.WriteLine("\ninput elements of the array\n");
+		for(int i=0;i<a;i++)
+		{
+			array[i] =Convert.ToInt32(Console.ReadLine());
+		}
+		Console.WriteLine("\n elements of the array\n");
+		for(int i=0;i<a;i++)
+		{
+			Console.Write(array[i]+"\n");
+		}
+		for(int i=0;i<a;i++)
+		{
+			if((i%2)==0)
+			{
+				array[i]++;
+		    }
+			else
+			{
+				array[i]--;
+		    }
+		}
+		Console.WriteLine("\n elements of the array after changing\n");
+		for(int i=0;i<a;i++)
+		{
+			Console.Write(array[i]+"\n");
+		}
+}
+}
